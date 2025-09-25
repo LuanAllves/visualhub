@@ -28,6 +28,7 @@ INSTALLED_APPS = [
 
     # === Meus Apps ===
     'core',
+    'accounts',
 ]
 
 MIDDLEWARE = [
