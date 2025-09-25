@@ -1,0 +1,22 @@
+# === DB ===
+.db
+db
+db.
+
+# === Ambiente ===
+.venv/
+venv/
+.venv
+venv
+env/
+env
+.env/
+.env
+__pycache__
+*__pycache__
+__pycache__*
+*__pycache__*
+
+# === VSCode ===
+vscode/
+code/
