@@ -1,0 +1,20 @@
+Guia de construção do sistema.
+
+O sistema é um agendador de serviços, onde um cliente entra no site (ou app futuramente), seleciona o estabelecimento e faz seu agendamento.
+
+Funcionalidades do sistema:
+    1 - Plataforma de gerenciamneto para o dono do estabelecimento
+    2 - Plataforma de gerenciamneto para o profissional do estabelecimento
+    3 - Plataforma de agendamento para o cliente do estabelecimento
+
+Fluxo do sistema:
+    1 - Todos vao acessar o sistema com a url "visualhub.com",
+    2 - Teremos um middleware que verifica se o usuario esta logado, caso não, ele bloqueia o acesso da dashboard e enviar para o login.
+    3 - No login verificamos quem é o usuario (cliente, profissional ou dono) e redirecionamos para a dashboard correta e filtramos os dados dele.
+
+Passos para da implementação:
+    [x] - Pagina de login e Logout
+    [] - Dashboard cliente, estabelecimento e profissional
+    [] - Middleware para requerimento de login
+    [] - Filtro de dados
+    
